@@ -15,7 +15,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link className="nav-link text-white" to="/About">
-          About
+          About Me
         </Link>
       </li>
       <li className="nav-item">
