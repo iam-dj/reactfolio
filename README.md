@@ -54,6 +54,8 @@ To use the portfolio, follow these instructions:
 4. Customize the portfolio by modifying the source code and adding your own projects, experiences, or any other desired content.
 5. Feel free to adapt the design and structure to suit your preferences and personal branding.
 
+Deploy link: https://teal-pika-9bf5ba.netlify.app/ 
+
 ## Screenshots
 
 Include relevant screenshots of your portfolio project here, showcasing different sections or notable features.
