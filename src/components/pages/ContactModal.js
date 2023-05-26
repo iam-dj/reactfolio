@@ -16,7 +16,7 @@ function ContactModal() {
 
   return (
     <div className="fix">
-        <img className="mainContact" src={bg} alt="Code spelt out"></img>
+      <img className="mainContact" src={bg} alt="Code spelt out"></img>
       <Button className="buttonOffFloor" variant="primary" onClick={handleShow}>
         Contact Me
       </Button>
@@ -37,10 +37,9 @@ function ContactModal() {
               <Form.Control type="name" placeholder="Name" />
             </Form.Group>
             <InputGroup>
-        <InputGroup.Text>Leave a Message</InputGroup.Text>
-        <Form.Control as="textarea" aria-label="With textarea" />
-      </InputGroup>
-           
+              <InputGroup.Text>Leave a Message</InputGroup.Text>
+              <Form.Control as="textarea" aria-label="With textarea" />
+            </InputGroup>
           </Form>
         </Modal.Body>
         <Modal.Footer>
@@ -48,9 +47,8 @@ function ContactModal() {
             Close
           </Button>
           <Button variant="primary" type="submit" onClick={handleClose}>
-              Submit
-            </Button>
-
+            Submit
+          </Button>
         </Modal.Footer>
       </Modal>
     </div>

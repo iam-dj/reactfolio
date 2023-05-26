@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className='fix'>
         <h1>
-            NotFound
+            Seat's missing... Can't sit here! 404
         </h1>
     </div>
   )
