@@ -17,9 +17,9 @@ export default function About() {
   return (
     <div>
       <body style={cardStyle}>
-        <div className="card">
+        <div className="card img-responsive">
           
-          <div className="card-text2">
+          <div className="col-12 card-text2">
             <div className="portada"></div>
             <div className="title-total">
               <div className="title">Full Stack Developer & Executive Digital Strategist</div>

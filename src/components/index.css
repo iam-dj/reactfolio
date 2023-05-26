@@ -18,12 +18,14 @@
 }
 .mainResume{
     width: 100%;
-    height: 100%;
+    padding-top: 80px;
+    /* height: calc(100% - 90px); */
 }
 
 .buttonOffFloor{
   position:relative;
-  bottom:100px;
+  bottom:50px;
+  right:5px;
 
 }
 
@@ -177,7 +179,50 @@ video {
     border-radius: 4px;
   }
   
-  
+  /* CSS for iPad */
+@media only screen
+and (device-width: 768px)
+and (device-height: 1024px)
+and (-webkit-min-device-pixel-ratio: 1)
+and (orientation: portrait) {
+/* CSS styles specific to iPad portrait mode */
+}
+
+@media only screen
+and (device-width: 768px)
+and (device-height: 1024px)
+and (-webkit-min-device-pixel-ratio: 1)
+and (orientation: landscape) {
+/* CSS styles specific to iPad landscape mode */
+}
+
+/* CSS for iPhone */
+@media only screen
+and (device-width: 375px)
+and (device-height: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+/* CSS styles specific to iPhone 6/7/8 (regular) portrait mode */
+}
+
+@media only screen
+and (device-width: 375px)
+and (device-height: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+/* CSS styles specific to iPhone X/XS/11 Pro portrait mode */
+}
+
+@media only screen
+and (device-width: 414px)
+and (device-height: 896px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+/* CSS styles specific to iPhone XR/11/11 Pro Max portrait mode */
+}
+
+/* Add more media queries for other iPhone models or adjust existing ones based on your needs */
+
   
   
   

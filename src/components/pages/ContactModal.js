@@ -17,7 +17,7 @@ function ContactModal() {
   return (
     <div className="fix">
       <img className="mainContact" src={bg} alt="Code spelt out"></img>
-      <Button className="buttonOffFloor" variant="primary" onClick={handleShow}>
+      <Button className="buttonOffFloor btn-sm" variant="primary" onClick={handleShow}>
         Contact Me
       </Button>
 

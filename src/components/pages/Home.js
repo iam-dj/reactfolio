@@ -7,7 +7,7 @@ export default function Home() {
   const textStyle = {
     // width: '25rem',
     // height: 'auto',
-    fontSize: '100px',
+    fontSize: '80px',
     // paddingBottom:'20px',
     // bottom:'12px',
     // top:"10px"
