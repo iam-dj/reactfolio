@@ -4,14 +4,23 @@ import "../../components/index.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
+// import InputGroup from "react-bootstrap/InputGroup";
 
 import bg from "../assets/bg.png";
 
 function ContactModal() {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleCloseWithMessage = (e) =>{
+    e.preventDefault();
+    window.open('mailto:dexterjulesjr@gmail.com', '_blank');
+    setShow(false);
+  };
+  const handleClose = (e) =>{
+   
+    setShow(false);
+  };
+  
   const handleShow = () => setShow(true);
 
   return (
@@ -27,7 +36,7 @@ function ContactModal() {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            {/* <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>
@@ -39,15 +48,16 @@ function ContactModal() {
             <InputGroup>
               <InputGroup.Text>Leave a Message</InputGroup.Text>
               <Form.Control as="textarea" aria-label="With textarea" />
-            </InputGroup>
+            </InputGroup> */}
+            <p>I appreciate you choosing to work with me see below, click the button to send me a personal email.</p>
           </Form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" type="submit" onClick={handleClose}>
-            Submit
+          <Button variant="primary" type="submit" onClick={handleCloseWithMessage}>
+            Click here to send an email
           </Button>
         </Modal.Footer>
       </Modal>

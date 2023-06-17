@@ -22,7 +22,7 @@ export default function Card(props) {
         <div className="row mx-auto card-decks" >
 
       {props.work.map((item) => (
-        <div className="col-md-6" >
+        <div className="col-md-6" style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="card h-95 text-white bg-secondary mb-3" style={cardStyle} id="element">
             <img
               className="card-img-top"
@@ -32,6 +32,8 @@ export default function Card(props) {
             <div className="card-body">
               <h3 className="card-title">{item.name}</h3>
               <p className="card-text">Description: {item.description}</p>
+              {item.hasAward ? <p className="card-text">Won: {item.hasAward} awards</p> : null}
+
               
               <a href={item.link} className="btn btn-sm justify-content-center btn-danger">Link </a>
             </div>

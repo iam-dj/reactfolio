@@ -179,6 +179,11 @@ video {
     border-radius: 4px;
   }
   
+  @media (max-width: 555px) {
+    .portada {
+      background-image: none;
+    }
+  }
   /* CSS for iPad */
 @media only screen
 and (device-width: 768px)

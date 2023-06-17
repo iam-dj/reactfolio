@@ -29,15 +29,7 @@ export default function About() {
               An unyielding drive to innovate propels my career in full-stack development and digital marketing strategy. My portfolio is comprised of an assortment of successful projects from diverse industries, highlighting my ability to deliver thought-provoking graphics, cutting-edge web applications, and captivating brand narratives. I offer unique, comprehensive solutions that drive unparalleled business growth. My robust understanding of the most recent developments within the industry, coupled with cutting-edge technological expertise, has enabled me to successfully develop and execute plans that produce substantial results across numerous demographics utilizing diverse communication methods.
               </div>
               <div className="actions">
-                <button>
-                  <i className="far fa-heart"></i>
-                </button>
-                <button>
-                  <i className="far fa-envelope"></i>
-                </button>
-                <button>
-                  <i className="fas fa-user-friends"></i>
-                </button>
+                
               </div>
             </div>
           </div>
@@ -46,3 +38,7 @@ export default function About() {
     </div>
   );
 }
+
+
+
+
