@@ -35,7 +35,7 @@ const btn =
   };
 
   render() {
-    return <butto className='PDFbtn' onClick={this.handleDownload}>Download</butto>;
+    return <button className='PDFbtn' onClick={this.handleDownload}>Download</button>;
   }
 }
 
