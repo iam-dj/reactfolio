@@ -33,7 +33,7 @@ export default function Resume() {
   return (
     <div style={color} className="col-12">
       <button className="PDFbtn" onClick={handleDownload}>
-        Download Resume
+        Download
       </button>
       <img className="mainResume" src={resume} alt="dexter" s resume />
       <img className="mainResume" src={resume2} alt="dexter" s resume />
