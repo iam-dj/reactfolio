@@ -19,7 +19,7 @@ const work = [
   {
     id: 1,
     name: "DRTY Nomad",
-    description: "DRTY Nomad is a platform that connects travelers, facilitates sharing of experiences, and fosters a sense of community in exploring unique destinations, while showcasing our expertise in web development, database management, and user authentication. This app won Best Functionality and The People's Choice award.",
+    description: "DRTY Nomad is a platform that connects travelers, facilitates sharing of experiences, and fosters a sense of community in exploring unique destinations, while showcasing our expertise in web development, database management, and user authentication. This app won Best Functionality and The People's Choice award. Fun fact: This project was built using Handlebars.",
     photo: drty,
     hasAward: 2,
     link: ' https://nomadness-drty-a259a96650fd.herokuapp.com/'
