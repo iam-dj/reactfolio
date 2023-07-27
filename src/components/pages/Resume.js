@@ -17,8 +17,7 @@ const btn =
   };
 
 
- class DownloadButton extends Component {
-  handleDownload = () => {
+  function handleDownload() {
     const pdfFilePath = Dexter_Resume;
 
     // Create a temporary anchor element and set its attributes.
@@ -26,26 +25,20 @@ const btn =
     link.href = pdfFilePath;
     link.download = 'Dexter_Resume.pdf'; // Set the downloaded file's name.
 
+
     // Append the link to the body and click it programmatically to trigger the download.
     document.body.appendChild(link);
     link.click();
 
     // Clean up: Remove the temporary link from the DOM.
     document.body.removeChild(link);
-  };
-
-  render() {
-    return <button className='PDFbtn' onClick={this.handleDownload}>Download</button>;
   }
-}
 
+ 
 
   return (
     <div style={color} className='col-12'>
-      <DownloadButton 
-      // style={btn} 
-      className='PDFbtn'
-        />
+<button className='PDFbtn' onClick={handleDownload}>Download</button>
       <img className='mainResume' src={resume} alt='dexter's resume/>
       <img className='mainResume' src={resume2} alt='dexter's resume/>
     </div>
