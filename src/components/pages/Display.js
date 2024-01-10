@@ -5,6 +5,8 @@ import brewvey from "../assets/brew.png"
 import note from "../assets/note.png"
 import mvc from "../assets/mvc.png"
 import poke from "../assets/poke.png"
+import bubble from "../assets/bubble.png"
+import poke from "../assets/poke.png"
 import weather from "../assets/weather.png"
 
 const work = [
@@ -15,6 +17,13 @@ const work = [
     photo:  poke,
     hasAward: 2,
     link: 'https://drypokemon.netlify.app/'
+  },
+  {
+    id: 7,
+    name: "ReSellr Web ",
+    description: "In this project, we created a web application that allows users to buy items low and sell them within their profit margin. The app was designed using Bubble.io low-code and no-code platform.",
+    photo:  bubble,
+    link: 'https://resellr-52632.bubbleapps.io/'
   },
   {
     id: 1,
@@ -31,20 +40,6 @@ const work = [
     photo:  brewvey,
     hasAward: 1,
     link: 'https://alexmoriyama.github.io/brewvey'
-  },
-  {
-    id: 3,
-    name: "Blog MVC",
-    description: "The Blog MVC Homework project is a blog application implemented using the MVC architectural pattern, with the goal of creating a structured and user-friendly platform for managing and organizing blog content, while also providing a learning opportunity to understand the importance of MVC in web development and gain experience in handling databases and HTTP operations.",
-    photo: mvc,
-    link: 'https://github.com/iam-dj/mvc-tech-blog/blob/main/README.md'
-  },
-  {
-    id: 5,
-    name: "Note Taker Organizer",
-    description: "The note taking application is a web-based tool that streamlines note creation, organization, and storage, offering features such as search, sorting, categorization, and backup, making it an ideal solution for staying organized and managing important information efficiently.",
-    photo:  note,
-    link: 'https://github.com/iam-dj/note-take-challenge'
   },
   {
     id: 6,
