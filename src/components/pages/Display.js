@@ -9,7 +9,7 @@ import bubble from "../assets/bubble.png"
 import poke from "../assets/poke.png"
 import weather from "../assets/weather.png"
 
-const work = [
+const work  = [
   {
     id: 4,
     name: "DRY Pokemon",
